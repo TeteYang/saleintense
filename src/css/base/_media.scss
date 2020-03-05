@@ -1,0 +1,189 @@
+@media (max-width: 980px){
+    .background{
+        padding: 9vh 0 0 0;
+    }
+    .background .text{
+        .text-h1{
+            font-size: 48px;
+        }
+        .text-h2{
+            font-size: 28px;
+        }
+    }
+    .info-block1 .main-blocks1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0 0 0 10vw;
+        .blokimg{
+            max-width: 65vw;
+            font-size: 23px;
+        }
+        .blokimg .img-info{
+            height: 290px;
+        }
+    }
+    .info-block2 .main-blocks2{
+        display: flex;
+        flex-direction: column;
+        .img-block2{
+            width: 80vw;
+            height: 100%;
+            margin: 0 auto;
+        }
+        .text-block2{
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .img-lady{
+            width: 615px;
+            height: 415px;
+        }
+    }
+    .info-block3 .main-blocks3{
+        flex-wrap: nowrap;
+        margin: 30px 20px;
+    }
+}
+@media(max-width: 770px){
+    .background .text{
+        .text-h1{
+            font-size: 43px;
+        }
+        .text-h2{
+            font-size: 24px;
+        }
+        .text-p{
+            margin: 5vh auto;
+        }
+    }
+    .info-block1{
+        .info1{
+            font-size: 17px;
+        }
+        .main-blocks1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 0 0 0 5vw;
+            .blokimg{
+                font-size: 20px;
+            }
+            .blokimg .img-info{
+                height: 230px;
+                width: 360px;
+                margin: 0 auto;
+            }
+        }
+    } 
+    .info-block2 .main-blocks2 .img-lady{
+        width: 572px;
+        height: 400px;
+    }
+    .info-block3 {
+        .info3{
+            font-size: 17px;
+        }
+        .main-blocks3{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-bottom: 0;
+        }
+        .main-blocks3 .icontext{
+            margin: 5px auto;
+        }
+        .icontext .info-img3{
+            width: 140px;
+            font-size: 20px;
+        }
+        .icontext .ifo-text3{
+            font-size: 20px;
+        }
+    }
+    .info-block4 {
+        .info4{
+            font-size: 19px;
+        }
+        .surprize .super-box{
+            width: 140px;
+        }
+    }
+    .info-block5{
+        .info5, .text-p5{
+            font-size: 26px;
+        }
+    } 
+    } 
+    @media(max-width:540px){
+        .background .btn .btn-style{
+            padding: 10px;
+        }
+        .background .text{
+            .text-h1{
+                font-size: 40px;
+            }
+            .text-h2{
+                font-size: 22px;
+            }
+            .text-p{
+                margin: 5vh auto;
+            }
+        }
+        .info-block1{
+            .info1 {
+                font-size: 20px;
+                padding: 5px 0 0 0;
+                line-height: normal;
+            }
+            .main-blocks1 .blokimg .img-info {
+                width: 100%;
+                height: 100%;
+            } 
+        } 
+        body .main-blocks1 .blokimg .info2{
+            font-size: 16px;
+        }
+        .info-block2 .main-blocks2{
+            .img-lady {
+            width: 100%;
+            height: 70%;
+        }
+            .img-block2 {
+            width: 90vw;
+            height: 50%;
+        }
+        } 
+        .info-block3 .icontext .ifo-text3 {
+            font-size: 17px;
+        }
+        .info-block3 .main-blocks3{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 0;
+        }
+        .info-block4 .surprize .super-box {
+            width: 60%;
+        }
+        .info-block4 .info4 {
+            font-size: 17px;
+            max-width: 80vw;
+        }
+        .info-block4 .btn2 .btn-style2{
+            padding: 10px;
+        }
+        .info-block5 .info5{
+            font-size: 20px;
+            line-height: normal;
+        }
+        .info-block5 .text-p5{
+            font-size: 20px;
+            line-height: normal;
+        }
+        .info-block5 .icon6 {
+            width: 85%;
+        }
+        .info-block6{
+            padding: 25px;
+        }
+    }

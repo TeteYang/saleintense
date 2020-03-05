@@ -1,0 +1,45 @@
+.info-block3{
+    min-height: 50vh;
+    background: url('../img/backimg2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 5px 0;
+    .layout-info{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    .info3{
+        display: flex;
+        justify-content: center; 
+        padding: 20px 0 10px 0;
+        color: #efefef;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .hr1{
+        width: 23%;
+        height: 2px;
+        background-color: #f9bf3b;
+        border: 0;
+    }
+    .main-blocks3{
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+    .main-blocks3 .icontext{
+        width: 180px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #efefef;
+    }
+    .icontext .ifo-text3{
+        text-align: center;
+    }
+}
