@@ -8,6 +8,9 @@
         height: 71px;
         margin: 0 auto;
     }
+    // .icon img{
+
+    // }
     .text-icon{
         text-align: center;
         padding-top: 20px;
@@ -42,7 +45,7 @@
         .text-p span{
             color: #f9bf3b;
         }
-        
+
         }
     .btn{
         display: flex;
@@ -84,5 +87,9 @@
         padding-bottom: 15px;
         width: 27px;
         height: 15px;
+        img{
+            width: 27px;
+            height: 15px;
+        }
     }
 }
