@@ -489,24 +489,24 @@ body {
     height: 28vh;
   }
   body .main-blocks1 .blokimg .info2 {
-    font-size: 23px;
+    font-size: 19px;
     text-align: justify;
   }
   .text-block2 .ifo-txt2 {
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
   }
 }
 
 @media (max-width: 767px) {
   .background .text .text-h1 {
-    font-size: 43px;
+    font-size: 38px;
   }
   .background .text .text-h2 {
     font-size: 24px;
   }
   .background .text .text-p {
-    margin: 5vh auto;
+    margin: 1vh auto;
   }
   .info-block1 .info1 {
     font-size: 29px;
@@ -529,13 +529,7 @@ body {
     font-size: 20px;
   }
   .info-block1 .main-blocks1 .blokimg .img-info {
-    height: 230px;
-    width: 360px;
     margin: 0 auto;
-  }
-  .info-block2 .main-blocks2 .img-lady {
-    width: 572px;
-    height: 400px;
   }
   .info-block3 .info3 {
     font-size: 20px;
@@ -544,8 +538,8 @@ body {
   .info-block3 .main-blocks3 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     margin-bottom: 0;
   }
   .info-block3 .main-blocks3 .icontext {
@@ -565,7 +559,7 @@ body {
     width: 140px;
   }
   .info-block5 .info5, .info-block5 .text-p5 {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
